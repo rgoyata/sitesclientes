@@ -12,16 +12,18 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-coffee/70 via-coffee/20 to-coffee/10" />
 
       <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
-        <span className="text-cream/80 text-xs tracking-[0.4em] uppercase mb-6">
-          Atelier Olfativo
-        </span>
-        <h1 className="font-serif text-cream text-4xl sm:text-6xl max-w-3xl leading-[1.1]">
-          Transformamos ambientes em experiências inesquecíveis.
-        </h1>
-        <p className="mt-6 text-cream/85 max-w-lg text-base sm:text-lg">
-          Produtos artesanais, presentes especiais e identidade olfativa para
-          tornar cada ambiente único.
-        </p>
+        <div className="max-w-3xl bg-coffee/60 px-6 py-8 sm:px-12 sm:py-10 flex flex-col items-center">
+          <span className="text-cream/80 text-xs tracking-[0.4em] uppercase mb-6">
+            Atelier Olfativo
+          </span>
+          <h1 className="font-serif text-cream text-4xl sm:text-6xl leading-[1.1]">
+            Transformamos ambientes em experiências inesquecíveis.
+          </h1>
+          <p className="mt-6 text-cream/85 max-w-lg text-base sm:text-lg">
+            Produtos artesanais, presentes especiais e identidade olfativa
+            para tornar cada ambiente único.
+          </p>
+        </div>
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4">
           <a
