@@ -13,9 +13,12 @@ export function ProductCard({ name, description, priceCash, priceCredit, image }
             className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
           />
         ) : (
-          <div className="h-full w-full flex items-center justify-center">
-            <span className="font-serif italic text-coffee/40 text-lg">
+          <div className="h-full w-full flex flex-col items-center justify-center gap-2 bg-gradient-to-br from-beige to-beige/60">
+            <span className="font-serif italic text-coffee/50 text-2xl sm:text-3xl">
               GO
+            </span>
+            <span className="text-[10px] sm:text-xs tracking-[0.2em] uppercase text-coffee/40">
+              Foto em breve
             </span>
           </div>
         )}
