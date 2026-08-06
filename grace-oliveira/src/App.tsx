@@ -23,8 +23,8 @@ function App() {
         <Lembrancinhas />
         <Sobre />
         <Depoimentos />
-        <InstagramSection />
         <Contato />
+        <InstagramSection />
       </main>
       <Footer />
       <WhatsAppFloat />
